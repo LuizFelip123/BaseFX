@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2022, 13:38:08
+    Author     : Cliente
+*/
+
+.table-alunos{
+   -fx-border-color: #000;
+   -fx-border-width: 1px;
+
+   
+}
+
+
+.table-alunos .column-header-background{
+     -fx-background-color: linear-gradient(to bottom right, #ea9191,#bb0d0d);
+     -fx-padding: 10px; 
+     
+}
+.table-alunos .column-header, filter{
+       -fx-background-color: transparent;
+}
+
+.btn-pesquisar{
+    
+     -fx-background-color: #bb0d0d;
+    -fx-border-radius: 20px;
+    -fx-fill: #ffffff;
+     -fx-cursor: hand;
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="643.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="201.0" layoutY="80.0" prefHeight="643.0" prefWidth="996.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-125.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="643.0" prefWidth="256.0" styleClass="painel-login" stylesheets="@style/GeralStyle.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="7.0" layoutY="232.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Cadastrar Aluno" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="7.0" layoutY="269.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Listar Aluno" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="9.0" layoutY="306.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Cadastrar Turma" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="7.0" layoutY="387.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Cadastrar Disciplina" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="7.0" layoutY="430.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Sair">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="53.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/working.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="100.0" layoutX="128.0" layoutY="204.0" startX="-100.0" />
+                  <Button layoutX="7.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" styleClass="btn-principal" stylesheets="@style/MenuPrincipalStyle.css" text="Listar Turma" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="643.0" prefWidth="780.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="51.0" layoutY="5.0" prefHeight="643.0" prefWidth="859.0" style="-fx-background-color: #fff;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TextField layoutX="83.0" layoutY="107.0" prefHeight="25.0" prefWidth="397.0" styleClass="input" stylesheets="@style/CadastroAlunoStyle.css" />
+                        <TextField layoutX="83.0" layoutY="176.0" prefHeight="25.0" prefWidth="397.0" styleClass="input" stylesheets="@style/CadastroAlunoStyle.css" />
+                        <TextField layoutX="83.0" layoutY="246.0" prefHeight="25.0" prefWidth="397.0" styleClass="input" stylesheets="@style/CadastroAlunoStyle.css" />
+                        <TextField layoutX="83.0" layoutY="309.0" prefHeight="25.0" prefWidth="397.0" styleClass="input" stylesheets="@style/CadastroAlunoStyle.css" />
+                        <Text layoutX="87.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+                        <Text layoutX="82.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Nascimento" />
+                        <Text layoutX="83.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF" />
+                        <Text layoutX="82.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                        <Text layoutX="82.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do responsável" />
+                        <Text layoutX="83.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parentesco" />
+                        <Text layoutX="83.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                        <ComboBox layoutX="82.0" layoutY="382.0" prefHeight="25.0" prefWidth="389.0" style="-fx-background-color: tranparent; -fx-border-color: #000;" />
+                        <Button layoutX="158.0" layoutY="565.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="238.0" styleClass="btn-cadastar" stylesheets="@style/CadastroAlunoStyle.css" text="Cadastrar" textFill="#e4e4e4">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="83.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF" />
+                        <TextField layoutX="84.0" layoutY="446.0" prefHeight="25.0" prefWidth="397.0" styleClass="input" stylesheets="@style/CadastroAlunoStyle.css" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="170.0" layoutY="142.0" prefHeight="643.0" prefWidth="859.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TableView layoutX="8.0" layoutY="101.0" prefHeight="534.0" prefWidth="713.0" styleClass="table-alunos" stylesheets="@style/BuscaAlunosStyle.css" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="138.0">
+                          <columns>
+                            <TableColumn prefWidth="86.0" text="Matricula" />
+                            <TableColumn prefWidth="87.0" text="Nome " />
+                              <TableColumn prefWidth="133.0" text="CPF" />
+                              <TableColumn prefWidth="186.0" text="Nome Responsável" />
+                              <TableColumn prefWidth="90.0" text="Turma" />
+                              <TableColumn minWidth="0.0" prefWidth="129.0" text="Série" />
+                          </columns>
+                        </TableView>
+                        <TextField layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="434.0" promptText="Campo de Pesquisa" styleClass="input-text" stylesheets="@style/GeralStyle.css" />
+                        <Button layoutX="475.0" layoutY="47.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" styleClass="btn-pesquisar" stylesheets="@style/BuscaAlunosStyle.css" text="Pesquisar " textFill="#f2e8e8" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="100.0" layoutY="60.0" prefHeight="643.0" prefWidth="859.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Text layoutX="67.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="323.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dados Aluno">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="119.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luiz Felipe de andrade Santos">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="67.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="109.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="088946674550">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="523.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luiz Felipe de andrade Santos">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="375.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do responsável">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="375.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turma">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="430.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2B">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="45.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="179.0" styleClass="btn" stylesheets="@style/DadosAlunosStyle.css" text="Editar" textFill="#fffbfb" />
+                        <Button layoutX="475.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" styleClass="btn" stylesheets="@style/DadosAlunosStyle.css" text="Excluir" textFill="#fffbfb" />
+                        <Text layoutX="67.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Nascimento">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="188.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="21/08/1999">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="377.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parentesco">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="458.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pai">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="223.0" layoutY="107.0" prefHeight="643.0" prefWidth="735.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="124.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

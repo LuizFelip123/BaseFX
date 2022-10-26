@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.org.escola.sistemaescolar.controller.LoginController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="530.0" prefWidth="340.0" styleClass="painel-login" stylesheets="@style/GeralStyle.css">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true" styleClass="painel-login">
+               <image>
+                  <Image url="@img/reading.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="337.0" layoutY="-1.0" prefHeight="524.0" prefWidth="364.0" style="-fx-background-color: #fff;">
+         <children>
+            <TextField fx:id="campoUser" layoutX="77.0" layoutY="196.0" prefHeight="25.0" prefWidth="250.0" promptText="Usuário" styleClass="field" stylesheets="@style/LoginStyle.css">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="campoSenha" layoutX="77.0" layoutY="277.0" prefHeight="25.0" prefWidth="250.0" promptText="Senha" styleClass="field" stylesheets="@style/LoginStyle.css">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnEntrar" layoutX="131.0" layoutY="371.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="142.0" styleClass="btn-entrar" stylesheets="@style/LoginStyle.css" text="Entrar" textFill="#fff8f8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text fill="#d05454" layoutX="77.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Gestão Escolar">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
